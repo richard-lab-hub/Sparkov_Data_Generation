@@ -146,8 +146,8 @@ def main(customer_file, profile_file, start_date, end_date, out_path=None, start
                     is_fraud = 0
                     fraud_dates = []
                     # Target fraud rate: ~0.6% (legit 99.4%)
-                    if random.random() < 0.025:
-                        fraud_interval = random.randint(1, 1)
+                    if random.random() < 0.32:
+                        fraud_interval = random.randint(1, 2)
                         rand_interval = random.randint(1, inter_val)
                         newstart = start_date + timedelta(days=rand_interval)
                         newend = newstart + timedelta(days=fraud_interval)
