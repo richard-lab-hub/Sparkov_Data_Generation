@@ -1,0 +1,1040 @@
+category|merchant_name|merchant_code|merchant_size
+gas_transport|Shell|5541|large
+gas_transport|ExxonMobil|5541|small
+gas_transport|Chevron|5541|small
+gas_transport|BP|5541|large
+gas_transport|Marathon Petroleum|5541|small
+gas_transport|Valero|5541|small
+gas_transport|Phillips 66|5541|small
+gas_transport|Sunoco|5541|small
+gas_transport|Citgo|5541|large
+gas_transport|Speedway|5541|small
+gas_transport|Circle K|5541|large
+gas_transport|QuikTrip|5541|large
+gas_transport|Wawa|5541|medium
+gas_transport|RaceTrac|5541|small
+gas_transport|Sheetz|5541|medium
+gas_transport|Casey's General Stores|5541|medium
+gas_transport|Pilot Flying J|5541|small
+gas_transport|Love's Travel Stops|5541|small
+gas_transport|Cumberland Farms|5541|small
+gas_transport|GetGo|5541|small
+gas_transport|Murphy USA|5541|small
+gas_transport|BJ's Gas|5541|medium
+gas_transport|Costco Gas|5541|medium
+gas_transport|Sam's Club Fuel|5541|small
+gas_transport|Kroger Fuel|5541|medium
+gas_transport|Uber|5541|small
+gas_transport|Lyft|5541|large
+gas_transport|Greyhound|5541|large
+gas_transport|Amtrak|5541|large
+gas_transport|Enterprise Rent-A-Car|5541|medium
+gas_transport|Hertz|5541|medium
+gas_transport|Avis|5541|small
+gas_transport|Budget Rent A Car|5541|medium
+gas_transport|National Car Rental|5541|medium
+gas_transport|Dollar Rent A Car|5541|small
+gas_transport|Thrifty Car Rental|5541|small
+gas_transport|Zipcar|5541|large
+gas_transport|Turo|5541|small
+gas_transport|U-Haul|5541|large
+gas_transport|Penske Truck Rental|5541|medium
+gas_transport|FedEx|5541|small
+gas_transport|UPS|5541|small
+gas_transport|USPS|5541|small
+gas_transport|DHL Express|5541|small
+gas_transport|Midas|5541|large
+gas_transport|Jiffy Lube|5541|small
+gas_transport|Valvoline Instant Oil Change|5541|small
+gas_transport|Pep Boys|5541|small
+gas_transport|AutoZone|5541|small
+gas_transport|O'Reilly Auto Parts|5541|small
+gas_transport|Advance Auto Parts|5541|small
+gas_transport|NAPA Auto Parts|5541|small
+gas_transport|Firestone Complete Auto Care|5541|medium
+gas_transport|Goodyear Auto Service|5541|small
+gas_transport|Maaco|5541|small
+gas_transport|Caliber Collision|5541|large
+gas_transport|Safelite AutoGlass|5541|medium
+gas_transport|Kwik Trip|5541|medium
+gas_transport|7-Eleven Fuel|5541|small
+gas_transport|Sinclair Oil|5541|small
+gas_transport|Conoco|5541|small
+gas_transport|Texaco|5541|medium
+gas_transport|Mobil|5541|small
+gas_transport|Arco|5541|large
+gas_transport|76 Gas Station|5541|medium
+grocery_net|Amazon Fresh|5411|small
+grocery_net|Instacart|5411|medium
+grocery_net|Walmart Grocery Online|5411|small
+grocery_net|Shipt|5411|large
+grocery_net|FreshDirect|5411|small
+grocery_net|Peapod|5411|small
+grocery_net|Thrive Market|5411|large
+grocery_net|Boxed|5411|small
+grocery_net|Misfits Market|5411|large
+grocery_net|Imperfect Foods|5411|small
+grocery_net|Hungryroot|5411|small
+grocery_net|ButcherBox|5411|small
+grocery_net|Farmbox Direct|5411|small
+grocery_net|Vitacost|5411|small
+grocery_net|iHerb|5411|small
+grocery_net|Kroger Online|5411|medium
+grocery_net|Target Grocery Online|5411|large
+grocery_net|Costco Online Grocery|5411|small
+grocery_net|HEB Online|5411|small
+grocery_net|Publix Delivery|5411|small
+grocery_net|Safeway Online|5411|small
+grocery_net|Albertsons Online|5411|small
+grocery_net|Giant Food Online|5411|large
+grocery_net|Stop and Shop Online|5411|small
+grocery_net|Aldi Instacart|5411|large
+grocery_net|Trader Joe's Instacart|5411|large
+grocery_net|Whole Foods Online|5411|large
+grocery_net|Gopuff|5411|small
+grocery_net|DoorDash DashMart|5411|medium
+grocery_net|Uber Eats Grocery|5411|large
+grocery_net|Weee!|5411|small
+grocery_net|Good Eggs|5411|medium
+grocery_net|Sun Basket|5411|large
+grocery_net|Green Chef|5411|small
+grocery_net|EveryPlate|5411|small
+grocery_net|Dinnerly|5411|medium
+grocery_net|Home Chef|5411|small
+grocery_net|HelloFresh|5411|small
+grocery_net|Blue Apron|5411|large
+grocery_net|Factor Meals|5411|large
+grocery_net|Daily Harvest|5411|medium
+grocery_net|Splendid Spoon|5411|small
+grocery_net|Sakara Life|5411|large
+grocery_net|Territory Foods|5411|small
+grocery_net|CookUnity|5411|large
+grocery_net|Trifecta Nutrition|5411|large
+grocery_net|Snap Kitchen|5411|small
+grocery_net|Freshly|5411|small
+grocery_net|Mosaic Foods|5411|small
+grocery_net|RealEats|5411|small
+grocery_net|Sunbasket|5411|small
+grocery_net|Purple Carrot|5411|small
+grocery_net|Hungryroot Market|5411|small
+grocery_net|Vons Online|5411|small
+grocery_net|Food Lion To Go|5411|medium
+grocery_net|Harris Teeter Online|5411|large
+grocery_net|Meijer Online|5411|small
+grocery_net|Hy-Vee Aisles Online|5411|small
+grocery_net|WinCo Foods Online|5411|large
+grocery_net|BJ's Same Day|5411|medium
+grocery_net|Walmart Plus Grocery|5411|small
+grocery_net|Amazon Pantry|5411|large
+grocery_net|Jet.com Grocery|5411|medium
+grocery_net|Google Shopping Grocery|5411|small
+grocery_net|NetGrocer|5411|small
+grocery_pos|Walmart Supercenter|5411|small
+grocery_pos|Kroger|5411|small
+grocery_pos|Albertsons|5411|large
+grocery_pos|Publix|5411|medium
+grocery_pos|H-E-B|5411|medium
+grocery_pos|Safeway|5411|small
+grocery_pos|Aldi|5411|large
+grocery_pos|Trader Joe's|5411|medium
+grocery_pos|Whole Foods Market|5411|medium
+grocery_pos|Costco Wholesale|5411|medium
+grocery_pos|Sam's Club|5411|small
+grocery_pos|Wegmans|5411|small
+grocery_pos|Meijer|5411|small
+grocery_pos|WinCo Foods|5411|small
+grocery_pos|Food Lion|5411|medium
+grocery_pos|Giant Eagle|5411|medium
+grocery_pos|Stop and Shop|5411|small
+grocery_pos|ShopRite|5411|large
+grocery_pos|Hy-Vee|5411|small
+grocery_pos|Sprouts Farmers Market|5411|small
+grocery_pos|Harris Teeter|5411|small
+grocery_pos|Giant Food|5411|large
+grocery_pos|Piggly Wiggly|5411|small
+grocery_pos|Save-A-Lot|5411|large
+grocery_pos|Lidl|5411|medium
+grocery_pos|Market Basket|5411|medium
+grocery_pos|Stater Bros|5411|small
+grocery_pos|Ingles Markets|5411|small
+grocery_pos|Brookshire Grocery|5411|small
+grocery_pos|Weis Markets|5411|medium
+grocery_pos|Price Chopper|5411|medium
+grocery_pos|Raley's|5411|medium
+grocery_pos|Smart and Final|5411|small
+grocery_pos|Grocery Outlet|5411|medium
+grocery_pos|Natural Grocers|5411|small
+grocery_pos|Earth Fare|5411|large
+grocery_pos|Fresh Thyme|5411|large
+grocery_pos|The Fresh Market|5411|small
+grocery_pos|Cardenas Markets|5411|large
+grocery_pos|Fiesta Mart|5411|medium
+grocery_pos|Vallarta Supermarkets|5411|large
+grocery_pos|Northgate Market|5411|small
+grocery_pos|99 Ranch Market|5411|large
+grocery_pos|H Mart|5411|large
+grocery_pos|Mitsuwa Marketplace|5411|small
+grocery_pos|Uwajimaya|5411|small
+grocery_pos|Patel Brothers|5411|small
+grocery_pos|Food Bazaar|5411|medium
+grocery_pos|Key Food|5411|small
+grocery_pos|Morton Williams|5411|medium
+grocery_pos|Bi-Lo|5411|small
+grocery_pos|Harveys Supermarket|5411|large
+grocery_pos|Food City|5411|large
+grocery_pos|Fred Meyer|5411|small
+grocery_pos|QFC|5411|medium
+grocery_pos|King Soopers|5411|large
+grocery_pos|Fry's Food Stores|5411|small
+grocery_pos|Ralphs|5411|medium
+grocery_pos|Vons|5411|small
+grocery_pos|Jewel-Osco|5411|large
+grocery_pos|Acme Markets|5411|small
+grocery_pos|Lucky Supermarkets|5411|large
+grocery_pos|Schnucks|5411|medium
+grocery_pos|Dillons|5411|medium
+grocery_pos|Pick 'n Save|5411|small
+pharmacy|CVS Pharmacy|5912|small
+pharmacy|Walgreens|5912|small
+pharmacy|Rite Aid|5912|large
+pharmacy|Walmart Pharmacy|5912|small
+pharmacy|Costco Pharmacy|5912|medium
+pharmacy|Sam's Club Pharmacy|5912|large
+pharmacy|Kroger Pharmacy|5912|medium
+pharmacy|Publix Pharmacy|5912|small
+pharmacy|H-E-B Pharmacy|5912|medium
+pharmacy|Albertsons Pharmacy|5912|small
+pharmacy|Safeway Pharmacy|5912|medium
+pharmacy|Hy-Vee Pharmacy|5912|small
+pharmacy|Meijer Pharmacy|5912|small
+pharmacy|Giant Eagle Pharmacy|5912|small
+pharmacy|Wegmans Pharmacy|5912|small
+pharmacy|Fred Meyer Pharmacy|5912|small
+pharmacy|Winn-Dixie Pharmacy|5912|small
+pharmacy|Stop and Shop Pharmacy|5912|small
+pharmacy|ShopRite Pharmacy|5912|medium
+pharmacy|Harris Teeter Pharmacy|5912|small
+pharmacy|Good Neighbor Pharmacy|5912|small
+pharmacy|Health Mart Pharmacy|5912|large
+pharmacy|Medicine Shoppe Pharmacy|5912|medium
+pharmacy|Genoa Healthcare|5912|small
+pharmacy|PharMerica|5912|large
+pharmacy|BrightSpring Health|5912|medium
+pharmacy|Omnicare|5912|large
+pharmacy|PharMerica Corporation|5912|small
+pharmacy|Capsule Pharmacy|5912|small
+pharmacy|Alto Pharmacy|5912|large
+pharmacy|Amazon Pharmacy|5912|medium
+pharmacy|Truepill|5912|medium
+pharmacy|Honeybee Health|5912|small
+pharmacy|Cost Plus Drugs|5912|small
+pharmacy|GeniusRx|5912|medium
+pharmacy|Blink Health|5912|medium
+pharmacy|RxSaver|5912|medium
+pharmacy|ScriptSave WellRx|5912|small
+pharmacy|GoodRx|5912|medium
+pharmacy|SingleCare|5912|large
+pharmacy|Express Scripts|5912|large
+pharmacy|OptumRx|5912|large
+pharmacy|Caremark|5912|small
+pharmacy|Humana Pharmacy|5912|large
+pharmacy|Cigna Pharmacy|5912|small
+pharmacy|Rite Aid Pharmacy|5912|small
+pharmacy|Duane Reade|5912|large
+pharmacy|Kinney Drugs|5912|large
+pharmacy|Bartell Drugs|5912|small
+pharmacy|Harmons Pharmacy|5912|medium
+pharmacy|Raley's Pharmacy|5912|medium
+pharmacy|Bi-Mart Pharmacy|5912|medium
+pharmacy|Brookshire Pharmacy|5912|small
+pharmacy|Acme Pharmacy|5912|small
+pharmacy|Giant Food Pharmacy|5912|small
+pharmacy|Tom Thumb Pharmacy|5912|small
+pharmacy|Randalls Pharmacy|5912|small
+pharmacy|Vons Pharmacy|5912|small
+pharmacy|Jewel-Osco Pharmacy|5912|medium
+pharmacy|Food Lion Pharmacy|5912|medium
+pharmacy|Price Chopper Pharmacy|5912|small
+pharmacy|Hannaford Pharmacy|5912|medium
+pharmacy|Big Y Pharmacy|5912|small
+pharmacy|Tops Pharmacy|5912|small
+pharmacy|Weis Pharmacy|5912|small
+misc_net|Amazon.com|5999|large
+misc_net|eBay|5999|large
+misc_net|Etsy|5999|small
+misc_net|Wish|5999|small
+misc_net|Wayfair|5999|small
+misc_net|Overstock|5999|small
+misc_net|Zulily|5999|small
+misc_net|Groupon|5999|small
+misc_net|Rakuten|5999|medium
+misc_net|AliExpress|5999|small
+misc_net|Chewy|5999|small
+misc_net|Zappos|5999|large
+misc_net|1-800-Flowers|5999|medium
+misc_net|FTD Flowers|5999|small
+misc_net|ProFlowers|5999|medium
+misc_net|Shutterfly|5999|small
+misc_net|Vistaprint|5999|large
+misc_net|Zazzle|5999|medium
+misc_net|Redbubble|5999|medium
+misc_net|Society6|5999|medium
+misc_net|Fiverr|5999|small
+misc_net|Upwork|5999|medium
+misc_net|TaskRabbit|5999|small
+misc_net|Thumbtack|5999|small
+misc_net|Angi|5999|small
+misc_net|LegalZoom|5999|small
+misc_net|Rocket Lawyer|5999|large
+misc_net|TurboTax Online|5999|medium
+misc_net|H&R Block Online|5999|small
+misc_net|Credit Karma|5999|medium
+misc_net|NerdWallet|5999|small
+misc_net|Mint|5999|medium
+misc_net|YNAB|5999|large
+misc_net|Personal Capital|5999|small
+misc_net|Betterment|5999|large
+misc_net|Wealthfront|5999|large
+misc_net|Robinhood|5999|large
+misc_net|SoFi|5999|small
+misc_net|Acorns|5999|small
+misc_net|Stash|5999|small
+misc_net|PayPal|5999|large
+misc_net|Venmo|5999|small
+misc_net|Zelle|5999|small
+misc_net|Cash App|5999|small
+misc_net|Apple Pay Online|5999|small
+misc_net|Google Pay|5999|small
+misc_net|Facebook Marketplace|5999|medium
+misc_net|Mercari|5999|medium
+misc_net|Poshmark|5999|small
+misc_net|ThredUp|5999|medium
+misc_net|Depop|5999|small
+misc_net|OfferUp|5999|small
+misc_net|Craigslist Services|5999|medium
+misc_net|Nextdoor Services|5999|small
+misc_net|Care.com|5999|small
+misc_net|Rover.com|5999|medium
+misc_net|Wag|5999|medium
+misc_net|Handy|5999|small
+misc_net|Housecall Pro|5999|small
+misc_net|HomeAdvisor|5999|large
+misc_net|DocuSign|5999|medium
+misc_net|Adobe Sign|5999|small
+misc_net|Dropbox|5999|small
+misc_net|Google Workspace|5999|large
+misc_net|Microsoft 365|5999|small
+misc_pos|Dollar General|5999|small
+misc_pos|Dollar Tree|5999|small
+misc_pos|Five Below|5999|medium
+misc_pos|Big Lots|5999|medium
+misc_pos|Tuesday Morning|5999|small
+misc_pos|Ollie's Bargain Outlet|5999|small
+misc_pos|99 Cents Only|5999|small
+misc_pos|Family Dollar|5999|small
+misc_pos|Hallmark|5999|small
+misc_pos|Yankee Candle|5999|small
+misc_pos|Bath and Body Works|5999|small
+misc_pos|Spencer's Gifts|5999|small
+misc_pos|Hot Topic|5999|medium
+misc_pos|BoxLunch|5999|small
+misc_pos|FYE|5999|medium
+misc_pos|GameStop|5999|large
+misc_pos|Half Price Books|5999|large
+misc_pos|Goodwill|5999|medium
+misc_pos|Salvation Army|5999|large
+misc_pos|Savers|5999|large
+misc_pos|Value Village|5999|medium
+misc_pos|Buffalo Exchange|5999|small
+misc_pos|Plato's Closet|5999|small
+misc_pos|Once Upon A Child|5999|small
+misc_pos|Habitat ReStore|5999|small
+misc_pos|Michaels|5999|small
+misc_pos|Hobby Lobby|5999|medium
+misc_pos|JOANN Fabrics|5999|large
+misc_pos|Blick Art Materials|5999|medium
+misc_pos|AC Moore|5999|small
+misc_pos|Office Depot|5999|large
+misc_pos|Staples|5999|small
+misc_pos|FedEx Office|5999|small
+misc_pos|UPS Store|5999|small
+misc_pos|Batteries Plus Bulbs|5999|medium
+misc_pos|True Value|5999|medium
+misc_pos|Ace Hardware|5999|medium
+misc_pos|Do It Best|5999|medium
+misc_pos|Tractor Supply Co|5999|small
+misc_pos|Northern Tool|5999|small
+misc_pos|Harbor Freight Tools|5999|medium
+misc_pos|Fastenal|5999|small
+misc_pos|Grainger|5999|small
+misc_pos|Uline|5999|small
+misc_pos|Container Store|5999|medium
+misc_pos|World Market|5999|small
+misc_pos|Pier 1 Imports|5999|large
+misc_pos|HomeGoods|5999|small
+misc_pos|Marshalls|5999|small
+misc_pos|TJ Maxx|5999|small
+misc_pos|Ross Dress for Less|5999|medium
+misc_pos|Burlington|5999|small
+misc_pos|Nordstrom Rack|5999|medium
+misc_pos|Saks OFF 5TH|5999|medium
+misc_pos|Sierra Trading Post|5999|small
+misc_pos|Stein Mart|5999|medium
+misc_pos|Bealls Outlet|5999|small
+misc_pos|Gabe's|5999|medium
+misc_pos|Dirt Cheap|5999|large
+misc_pos|National Wholesale Liquidators|5999|medium
+misc_pos|Big 5 Sporting Goods|5999|medium
+misc_pos|Dunham's Sports|5999|medium
+misc_pos|MINISO|5999|small
+misc_pos|Daiso|5999|small
+misc_pos|Flying Tiger Copenhagen|5999|small
+shopping_net|Amazon|5311|large
+shopping_net|Walmart.com|5311|large
+shopping_net|Target.com|5311|small
+shopping_net|BestBuy.com|5311|small
+shopping_net|Macys.com|5311|small
+shopping_net|Nordstrom.com|5311|small
+shopping_net|Kohls.com|5311|small
+shopping_net|JCPenney.com|5311|large
+shopping_net|Gap.com|5311|large
+shopping_net|Old Navy Online|5311|small
+shopping_net|Banana Republic Online|5311|medium
+shopping_net|H&M Online|5311|small
+shopping_net|Zara.com|5311|large
+shopping_net|ASOS|5311|small
+shopping_net|SHEIN|5311|small
+shopping_net|Nike.com|5311|medium
+shopping_net|Adidas.com|5311|medium
+shopping_net|Under Armour Online|5311|medium
+shopping_net|Lululemon.com|5311|small
+shopping_net|Athleta.com|5311|small
+shopping_net|Anthropologie.com|5311|medium
+shopping_net|Free People Online|5311|small
+shopping_net|Urban Outfitters.com|5311|medium
+shopping_net|J.Crew.com|5311|small
+shopping_net|Brooks Brothers Online|5311|small
+shopping_net|Ralph Lauren Online|5311|small
+shopping_net|Calvin Klein Online|5311|small
+shopping_net|Tommy Hilfiger Online|5311|small
+shopping_net|Michael Kors Online|5311|small
+shopping_net|Coach.com|5311|small
+shopping_net|Kate Spade Online|5311|small
+shopping_net|Tory Burch Online|5311|medium
+shopping_net|Tiffany.com|5311|medium
+shopping_net|Blue Nile|5311|large
+shopping_net|James Allen|5311|small
+shopping_net|Brilliant Earth|5311|medium
+shopping_net|Warby Parker Online|5311|large
+shopping_net|Glossier|5311|medium
+shopping_net|Fenty Beauty Online|5311|small
+shopping_net|Sephora.com|5311|large
+shopping_net|Ulta.com|5311|medium
+shopping_net|ColourPop|5311|small
+shopping_net|Morphe|5311|large
+shopping_net|Charlotte Tilbury Online|5311|small
+shopping_net|MAC Cosmetics Online|5311|small
+shopping_net|Chewy.com|5311|small
+shopping_net|Zappos.com|5311|small
+shopping_net|6pm.com|5311|small
+shopping_net|Revolve|5311|large
+shopping_net|Abercrombie.com|5311|medium
+shopping_net|Hollister.com|5311|small
+shopping_net|American Eagle Online|5311|small
+shopping_net|Express.com|5311|small
+shopping_net|Ann Taylor Online|5311|medium
+shopping_net|LOFT Online|5311|small
+shopping_net|Everlane|5311|large
+shopping_net|Allbirds|5311|small
+shopping_net|Bombas|5311|small
+shopping_net|Away Luggage|5311|large
+shopping_net|Casper.com|5311|large
+shopping_net|Purple Mattress Online|5311|small
+shopping_net|Brooklinen|5311|medium
+shopping_net|Parachute Home|5311|medium
+shopping_net|West Elm Online|5311|small
+shopping_net|Crate and Barrel Online|5311|small
+shopping_pos|Walmart|5311|small
+shopping_pos|Target|5311|large
+shopping_pos|Best Buy|5311|medium
+shopping_pos|Macy's|5311|small
+shopping_pos|Nordstrom|5311|small
+shopping_pos|Kohl's|5311|small
+shopping_pos|JCPenney|5311|small
+shopping_pos|TJ Maxx|5311|large
+shopping_pos|Marshalls|5311|small
+shopping_pos|Ross|5311|large
+shopping_pos|Burlington Coat Factory|5311|small
+shopping_pos|HomeGoods|5311|small
+shopping_pos|Gap|5311|large
+shopping_pos|Old Navy|5311|medium
+shopping_pos|Banana Republic|5311|medium
+shopping_pos|H&M|5311|large
+shopping_pos|Zara|5311|medium
+shopping_pos|Forever 21|5311|medium
+shopping_pos|Nike Store|5311|small
+shopping_pos|Adidas Store|5311|small
+shopping_pos|Under Armour|5311|small
+shopping_pos|Lululemon|5311|large
+shopping_pos|Foot Locker|5311|small
+shopping_pos|Finish Line|5311|medium
+shopping_pos|Dick's Sporting Goods|5311|small
+shopping_pos|REI|5311|small
+shopping_pos|Academy Sports|5311|medium
+shopping_pos|Cabela's|5311|medium
+shopping_pos|Bass Pro Shops|5311|small
+shopping_pos|Scheels|5311|medium
+shopping_pos|Anthropologie|5311|small
+shopping_pos|Free People|5311|small
+shopping_pos|Urban Outfitters|5311|small
+shopping_pos|J.Crew|5311|small
+shopping_pos|Brooks Brothers|5311|small
+shopping_pos|Ralph Lauren|5311|small
+shopping_pos|Calvin Klein|5311|small
+shopping_pos|Tommy Hilfiger|5311|large
+shopping_pos|Michael Kors|5311|small
+shopping_pos|Coach|5311|large
+shopping_pos|Kate Spade|5311|small
+shopping_pos|Tory Burch|5311|small
+shopping_pos|Tiffany and Co|5311|large
+shopping_pos|Zales|5311|medium
+shopping_pos|Kay Jewelers|5311|small
+shopping_pos|Jared|5311|medium
+shopping_pos|Pandora|5311|large
+shopping_pos|Swarovski|5311|small
+shopping_pos|Apple Store|5311|small
+shopping_pos|Microsoft Store|5311|small
+shopping_pos|Sephora|5311|small
+shopping_pos|Ulta Beauty|5311|small
+shopping_pos|Bath and Body Works Store|5311|small
+shopping_pos|Victoria's Secret|5311|small
+shopping_pos|Express|5311|large
+shopping_pos|American Eagle|5311|small
+shopping_pos|Abercrombie and Fitch|5311|small
+shopping_pos|Hollister|5311|large
+shopping_pos|Ann Taylor|5311|large
+shopping_pos|LOFT|5311|small
+shopping_pos|Chico's|5311|small
+shopping_pos|White House Black Market|5311|small
+shopping_pos|Torrid|5311|large
+shopping_pos|Lane Bryant|5311|small
+shopping_pos|Cato Fashions|5311|small
+utilities|Pacific Gas and Electric|4900|small
+utilities|Southern California Edison|4900|medium
+utilities|Con Edison|4900|small
+utilities|Duke Energy|4900|small
+utilities|Dominion Energy|4900|medium
+utilities|Southern Company|4900|small
+utilities|NextEra Energy|4900|small
+utilities|American Electric Power|4900|small
+utilities|Exelon|4900|small
+utilities|Sempra Energy|4900|small
+utilities|Entergy|4900|large
+utilities|Xcel Energy|4900|small
+utilities|WEC Energy Group|4900|small
+utilities|Eversource Energy|4900|small
+utilities|CenterPoint Energy|4900|small
+utilities|Ameren|4900|small
+utilities|Alliant Energy|4900|large
+utilities|Avista Corp|4900|small
+utilities|Black Hills Energy|4900|small
+utilities|Consumers Energy|4900|large
+utilities|DTE Energy|4900|medium
+utilities|Empire District Electric|4900|small
+utilities|FirstEnergy|4900|large
+utilities|Green Mountain Power|4900|medium
+utilities|Hawaiian Electric|4900|small
+utilities|Idaho Power|4900|small
+utilities|Kansas City Power and Light|4900|small
+utilities|Liberty Utilities|4900|small
+utilities|Madison Gas and Electric|4900|small
+utilities|National Grid|4900|medium
+utilities|New England Electric|4900|small
+utilities|Ohio Edison|4900|small
+utilities|Oklahoma Gas and Electric|4900|small
+utilities|Pacific Power|4900|medium
+utilities|PECO Energy|4900|medium
+utilities|Pepco|4900|small
+utilities|Portland General Electric|4900|large
+utilities|Puget Sound Energy|4900|small
+utilities|Rochester Gas and Electric|4900|medium
+utilities|San Diego Gas and Electric|4900|medium
+utilities|AT&T|4900|medium
+utilities|Verizon|4900|small
+utilities|T-Mobile|4900|small
+utilities|Comcast Xfinity|4900|medium
+utilities|Spectrum Charter|4900|small
+utilities|Cox Communications|4900|small
+utilities|CenturyLink|4900|small
+utilities|Frontier Communications|4900|large
+utilities|Windstream|4900|medium
+utilities|Consolidated Communications|4900|small
+utilities|American Water Works|4900|medium
+utilities|California Water Service|4900|medium
+utilities|SJW Group|4900|large
+utilities|Essential Utilities|4900|large
+utilities|Middlesex Water|4900|large
+utilities|Southwest Gas|4900|large
+utilities|Spire Energy|4900|large
+utilities|Atmos Energy|4900|small
+utilities|New Jersey Resources|4900|small
+utilities|ONE Gas|4900|medium
+utilities|Laclede Gas|4900|small
+utilities|Piedmont Natural Gas|4900|large
+utilities|South Union Gas|4900|small
+utilities|Washington Gas|4900|medium
+utilities|Columbia Gas|4900|small
+entertainment|Netflix|7999|large
+entertainment|Hulu|7999|small
+entertainment|Disney Plus|7999|large
+entertainment|HBO Max|7999|small
+entertainment|Amazon Prime Video|7999|medium
+entertainment|Peacock|7999|small
+entertainment|Paramount Plus|7999|large
+entertainment|Apple TV Plus|7999|small
+entertainment|YouTube Premium|7999|small
+entertainment|Spotify|7999|small
+entertainment|Apple Music|7999|large
+entertainment|Pandora|7999|small
+entertainment|Tidal|7999|medium
+entertainment|SiriusXM|7999|small
+entertainment|Audible|7999|small
+entertainment|AMC Theatres|7999|medium
+entertainment|Regal Cinemas|7999|large
+entertainment|Cinemark|7999|small
+entertainment|Alamo Drafthouse|7999|large
+entertainment|Landmark Theatres|7999|large
+entertainment|Fandango|7999|small
+entertainment|Atom Tickets|7999|medium
+entertainment|Ticketmaster|7999|medium
+entertainment|StubHub|7999|small
+entertainment|SeatGeek|7999|small
+entertainment|Live Nation|7999|medium
+entertainment|AXS|7999|small
+entertainment|Eventbrite|7999|small
+entertainment|Vivid Seats|7999|small
+entertainment|TickPick|7999|small
+entertainment|Dave and Busters|7999|medium
+entertainment|Main Event|7999|medium
+entertainment|Topgolf|7999|medium
+entertainment|Bowlero|7999|large
+entertainment|Lucky Strike|7999|small
+entertainment|Round1|7999|medium
+entertainment|Chuck E Cheese|7999|medium
+entertainment|Andretti Indoor Karting|7999|medium
+entertainment|K1 Speed|7999|large
+entertainment|iFLY Indoor Skydiving|7999|small
+entertainment|Escape Room|7999|medium
+entertainment|Meow Wolf|7999|medium
+entertainment|Six Flags|7999|large
+entertainment|Cedar Fair|7999|small
+entertainment|Universal Studios|7999|large
+entertainment|Walt Disney World|7999|small
+entertainment|SeaWorld|7999|small
+entertainment|Legoland|7999|medium
+entertainment|Busch Gardens|7999|large
+entertainment|Knott's Berry Farm|7999|large
+entertainment|Xbox Game Pass|7999|medium
+entertainment|PlayStation Plus|7999|small
+entertainment|Nintendo eShop|7999|small
+entertainment|Steam|7999|large
+entertainment|Epic Games Store|7999|small
+entertainment|Twitch|7999|large
+entertainment|Discord Nitro|7999|small
+entertainment|Crunchyroll|7999|small
+entertainment|Funimation|7999|small
+entertainment|Kindle Unlimited|7999|small
+entertainment|Scribd|7999|small
+entertainment|MasterClass|7999|small
+entertainment|Skillshare|7999|small
+entertainment|Coursera|7999|medium
+entertainment|Udemy|7999|medium
+food_dining|McDonald's|5812|large
+food_dining|Starbucks|5812|small
+food_dining|Chick-fil-A|5812|medium
+food_dining|Taco Bell|5812|medium
+food_dining|Wendy's|5812|large
+food_dining|Burger King|5812|medium
+food_dining|Subway|5812|small
+food_dining|Domino's Pizza|5812|large
+food_dining|Pizza Hut|5812|large
+food_dining|Papa John's|5812|small
+food_dining|Chipotle|5812|medium
+food_dining|Panera Bread|5812|small
+food_dining|Panda Express|5812|small
+food_dining|Popeyes|5812|small
+food_dining|Sonic Drive-In|5812|large
+food_dining|Arby's|5812|large
+food_dining|Jack in the Box|5812|small
+food_dining|Whataburger|5812|large
+food_dining|Five Guys|5812|large
+food_dining|In-N-Out Burger|5812|small
+food_dining|Raising Cane's|5812|large
+food_dining|Wingstop|5812|medium
+food_dining|Buffalo Wild Wings|5812|small
+food_dining|Zaxby's|5812|small
+food_dining|Culver's|5812|large
+food_dining|Shake Shack|5812|medium
+food_dining|Chili's|5812|medium
+food_dining|Applebee's|5812|small
+food_dining|Olive Garden|5812|medium
+food_dining|Red Lobster|5812|small
+food_dining|Outback Steakhouse|5812|small
+food_dining|Texas Roadhouse|5812|medium
+food_dining|Longhorn Steakhouse|5812|small
+food_dining|Cracker Barrel|5812|medium
+food_dining|Denny's|5812|large
+food_dining|IHOP|5812|medium
+food_dining|Waffle House|5812|medium
+food_dining|Bob Evans|5812|medium
+food_dining|Golden Corral|5812|small
+food_dining|The Cheesecake Factory|5812|large
+food_dining|P.F. Chang's|5812|medium
+food_dining|Red Robin|5812|medium
+food_dining|TGI Friday's|5812|large
+food_dining|BJ's Restaurant|5812|medium
+food_dining|Yard House|5812|medium
+food_dining|Noodles and Company|5812|medium
+food_dining|Firehouse Subs|5812|medium
+food_dining|Jimmy John's|5812|small
+food_dining|Jersey Mike's|5812|large
+food_dining|Potbelly|5812|medium
+food_dining|DoorDash|5812|medium
+food_dining|Uber Eats|5812|small
+food_dining|Grubhub|5812|large
+food_dining|Postmates|5812|small
+food_dining|Seamless|5812|large
+food_dining|Dunkin Donuts|5812|small
+food_dining|Krispy Kreme|5812|large
+food_dining|Tim Hortons|5812|large
+food_dining|Smoothie King|5812|medium
+food_dining|Jamba Juice|5812|medium
+food_dining|Tropical Smoothie Cafe|5812|large
+food_dining|Dutch Bros Coffee|5812|small
+food_dining|Peet's Coffee|5812|small
+food_dining|Caribou Coffee|5812|medium
+food_dining|Biggby Coffee|5812|small
+health_fitness|Planet Fitness|7997|large
+health_fitness|LA Fitness|7997|small
+health_fitness|24 Hour Fitness|7997|small
+health_fitness|Gold's Gym|7997|small
+health_fitness|Anytime Fitness|7997|small
+health_fitness|Equinox|7997|small
+health_fitness|Lifetime Fitness|7997|medium
+health_fitness|YMCA|7997|small
+health_fitness|Orangetheory Fitness|7997|small
+health_fitness|CrossFit|7997|small
+health_fitness|SoulCycle|7997|small
+health_fitness|Peloton|7997|small
+health_fitness|F45 Training|7997|large
+health_fitness|Blink Fitness|7997|small
+health_fitness|Crunch Fitness|7997|large
+health_fitness|Snap Fitness|7997|small
+health_fitness|Club Fitness|7997|small
+health_fitness|World Gym|7997|medium
+health_fitness|Retro Fitness|7997|small
+health_fitness|EOS Fitness|7997|small
+health_fitness|Curves|7997|medium
+health_fitness|Jazzercise|7997|medium
+health_fitness|Pure Barre|7997|medium
+health_fitness|Barry's Bootcamp|7997|small
+health_fitness|CorePower Yoga|7997|small
+health_fitness|YogaWorks|7997|medium
+health_fitness|Hot Yoga Inc|7997|small
+health_fitness|CycleBar|7997|large
+health_fitness|StretchLab|7997|medium
+health_fitness|Row House|7997|large
+health_fitness|Club Pilates|7997|small
+health_fitness|Burn Boot Camp|7997|large
+health_fitness|Title Boxing Club|7997|medium
+health_fitness|9Round Fitness|7997|small
+health_fitness|Rumble Boxing|7997|medium
+health_fitness|GNC|7997|small
+health_fitness|Vitamin Shoppe|7997|small
+health_fitness|Complete Nutrition|7997|small
+health_fitness|Bodybuilding.com|7997|large
+health_fitness|MyProtein|7997|small
+health_fitness|Optimum Nutrition|7997|medium
+health_fitness|Cellucor|7997|medium
+health_fitness|Garden of Life|7997|large
+health_fitness|Nature Made|7997|large
+health_fitness|One A Day|7997|medium
+health_fitness|Centrum|7997|medium
+health_fitness|Nordic Naturals|7997|small
+health_fitness|NOW Foods|7997|medium
+health_fitness|Life Extension|7997|small
+health_fitness|Nutraceutix|7997|small
+health_fitness|Fitbit Premium|7997|medium
+health_fitness|Apple Fitness Plus|7997|medium
+health_fitness|Beachbody|7997|small
+health_fitness|Calm App|7997|small
+health_fitness|Headspace|7997|small
+health_fitness|Noom|7997|large
+health_fitness|WW (Weight Watchers)|7997|large
+health_fitness|Jenny Craig|7997|small
+health_fitness|Nutrisystem|7997|large
+health_fitness|Herbalife|7997|small
+health_fitness|WHOOP|7997|medium
+health_fitness|Garmin Connect|7997|small
+health_fitness|Nike Training Club|7997|medium
+health_fitness|Strava Premium|7997|medium
+health_fitness|MapMyRun Plus|7997|small
+home|Home Depot|5712|small
+home|Lowe's|5712|medium
+home|Menards|5712|medium
+home|Ace Hardware Store|5712|large
+home|True Value Hardware|5712|small
+home|Sherwin-Williams|5712|small
+home|Benjamin Moore|5712|large
+home|PPG Paints|5712|medium
+home|Behr Paint|5712|small
+home|Valspar|5712|medium
+home|IKEA|5712|small
+home|Pottery Barn|5712|small
+home|Crate and Barrel|5712|small
+home|West Elm|5712|small
+home|Restoration Hardware|5712|small
+home|Pier 1|5712|small
+home|World Market Home|5712|medium
+home|Z Gallerie|5712|small
+home|Ethan Allen|5712|small
+home|Havertys|5712|large
+home|Ashley Furniture|5712|small
+home|Rooms To Go|5712|small
+home|La-Z-Boy|5712|large
+home|Bassett Furniture|5712|medium
+home|Arhaus|5712|small
+home|Williams-Sonoma|5712|small
+home|Sur La Table|5712|medium
+home|Bed Bath and Beyond|5712|small
+home|Pier 1 Imports Home|5712|large
+home|Pottery Barn Kids|5712|medium
+home|Wayfair Home|5712|small
+home|Overstock Home|5712|small
+home|Amazon Home|5712|small
+home|Target Home|5712|large
+home|Walmart Home|5712|small
+home|Floor and Decor|5712|large
+home|Lumber Liquidators|5712|large
+home|Empire Today|5712|small
+home|Stanley Steemer|5712|large
+home|ServPro|5712|small
+home|Orkin|5712|small
+home|Terminix|5712|small
+home|Rentokil|5712|small
+home|ABC Home and Commercial|5712|medium
+home|HomeTeam Pest Defense|5712|small
+home|ADT Security|5712|small
+home|SimpliSafe|5712|small
+home|Ring|5712|medium
+home|Vivint|5712|large
+home|Brinks Home Security|5712|small
+home|Roto-Rooter|5712|medium
+home|Mr. Rooter|5712|small
+home|Benjamin Franklin Plumbing|5712|medium
+home|One Hour Heating|5712|large
+home|Aire Serv|5712|small
+home|Mr. Electric|5712|large
+home|Molly Maid|5712|small
+home|Merry Maids|5712|small
+home|The Maids|5712|medium
+home|MaidPro|5712|medium
+home|Coit Cleaning|5712|large
+home|Sears Home Services|5712|large
+home|Home Advisor Services|5712|small
+home|Thumbtack Home|5712|large
+home|Angi Home Services|5712|small
+kids_pets|Toys R Us|5945|small
+kids_pets|Build-A-Bear Workshop|5945|small
+kids_pets|The LEGO Store|5945|medium
+kids_pets|Disney Store|5945|small
+kids_pets|American Girl|5945|small
+kids_pets|Mattel Shop|5945|medium
+kids_pets|Hasbro Toy Shop|5945|large
+kids_pets|Learning Express Toys|5945|small
+kids_pets|FAO Schwarz|5945|small
+kids_pets|Melissa and Doug|5945|large
+kids_pets|Carter's|5945|small
+kids_pets|OshKosh B'Gosh|5945|small
+kids_pets|Children's Place|5945|medium
+kids_pets|Gymboree|5945|large
+kids_pets|Justice|5945|large
+kids_pets|Pottery Barn Kids Store|5945|small
+kids_pets|buybuy BABY|5945|small
+kids_pets|Once Upon a Child Store|5945|large
+kids_pets|Kid to Kid|5945|large
+kids_pets|Plato's Closet Kids|5945|small
+kids_pets|Great Wolf Lodge|5945|large
+kids_pets|Legoland Discovery Center|5945|medium
+kids_pets|Crayola Experience|5945|small
+kids_pets|KidZania|5945|medium
+kids_pets|Sky Zone|5945|small
+kids_pets|Pump It Up|5945|small
+kids_pets|Little Gym|5945|medium
+kids_pets|Gymboree Play and Music|5945|medium
+kids_pets|My Gym|5945|large
+kids_pets|Goldfish Swim School|5945|small
+kids_pets|PetSmart|5945|small
+kids_pets|Petco|5945|medium
+kids_pets|Pet Supplies Plus|5945|large
+kids_pets|Pet Supermarket|5945|small
+kids_pets|Hollywood Feed|5945|small
+kids_pets|BarkBox|5945|medium
+kids_pets|Chewy Pets|5945|medium
+kids_pets|PetFlow|5945|small
+kids_pets|1-800-PetMeds|5945|medium
+kids_pets|VetRxDirect|5945|small
+kids_pets|Banfield Pet Hospital|5945|large
+kids_pets|VCA Animal Hospitals|5945|medium
+kids_pets|BluePearl Specialty|5945|large
+kids_pets|Camp Bow Wow|5945|small
+kids_pets|Dogtopia|5945|medium
+kids_pets|PetSuites|5945|small
+kids_pets|Rover Pet Sitting|5945|large
+kids_pets|Wag Dog Walking|5945|medium
+kids_pets|Fetch Pet Care|5945|large
+kids_pets|National Pet Care|5945|small
+kids_pets|Mud Bay|5945|medium
+kids_pets|Kriser's Natural Pet|5945|medium
+kids_pets|Unleashed by Petco|5945|large
+kids_pets|Wild Birds Unlimited|5945|medium
+kids_pets|Pet Valu|5945|medium
+kids_pets|Kahoots Pet Store|5945|medium
+kids_pets|Chuck and Don's|5945|large
+kids_pets|Loyal Companion|5945|medium
+kids_pets|Healthy Pet Austin|5945|small
+kids_pets|Woof Gang Bakery|5945|small
+kids_pets|Hagen Pet Products|5945|small
+kids_pets|Nylabone|5945|small
+kids_pets|Kong Company|5945|small
+kids_pets|Blue Buffalo Store|5945|medium
+kids_pets|Orvis Pet|5945|small
+personal_care|Sephora Store|7230|large
+personal_care|Ulta Beauty Store|7230|medium
+personal_care|MAC Cosmetics|7230|medium
+personal_care|Clinique|7230|medium
+personal_care|Estee Lauder|7230|large
+personal_care|Lancome|7230|small
+personal_care|Bobbi Brown|7230|small
+personal_care|NARS|7230|small
+personal_care|Too Faced|7230|medium
+personal_care|Benefit Cosmetics|7230|small
+personal_care|Tarte|7230|small
+personal_care|IT Cosmetics|7230|medium
+personal_care|Laura Mercier|7230|small
+personal_care|Bare Minerals|7230|small
+personal_care|Great Clips|7230|small
+personal_care|Supercuts|7230|small
+personal_care|Sport Clips|7230|small
+personal_care|Floyd's 99 Barbershop|7230|medium
+personal_care|Bishops Barbershop|7230|large
+personal_care|Drybar|7230|small
+personal_care|Madison Reed|7230|medium
+personal_care|Regis Salons|7230|small
+personal_care|Fantastic Sams|7230|medium
+personal_care|Cost Cutters|7230|small
+personal_care|SmartStyle|7230|small
+personal_care|Hair Cuttery|7230|small
+personal_care|Salon Lofts|7230|large
+personal_care|Phenix Salon Suites|7230|small
+personal_care|Sola Salon Studios|7230|medium
+personal_care|Massage Envy|7230|medium
+personal_care|Hand and Stone|7230|large
+personal_care|Elements Massage|7230|small
+personal_care|Massage Heights|7230|large
+personal_care|LaVida Massage|7230|medium
+personal_care|European Wax Center|7230|large
+personal_care|Waxing the City|7230|large
+personal_care|Brazil Wax Studio|7230|medium
+personal_care|Uni K Wax|7230|medium
+personal_care|SugaringLA|7230|small
+personal_care|Aspen Dental|7230|small
+personal_care|Heartland Dental|7230|small
+personal_care|Pacific Dental Services|7230|small
+personal_care|Gentle Dental|7230|small
+personal_care|Western Dental|7230|large
+personal_care|Affordable Dentures|7230|small
+personal_care|Smile Direct Club|7230|small
+personal_care|Invisalign Provider|7230|large
+personal_care|ClearChoice Dental|7230|medium
+personal_care|Kois Dental|7230|small
+personal_care|LensCrafters|7230|medium
+personal_care|Pearle Vision|7230|medium
+personal_care|Visionworks|7230|medium
+personal_care|MyEyeDr|7230|small
+personal_care|For Eyes|7230|medium
+personal_care|America's Best Contacts|7230|large
+personal_care|Eyeglass World|7230|medium
+personal_care|Warby Parker Store|7230|small
+personal_care|SEE Eyewear|7230|small
+personal_care|Target Optical|7230|large
+personal_care|Sally Beauty|7230|medium
+personal_care|CosmoProf|7230|small
+personal_care|Ricky's NYC|7230|small
+personal_care|Bluemercury|7230|small
+personal_care|Space NK|7230|small
+travel|Delta Air Lines|4722|small
+travel|United Airlines|4722|large
+travel|American Airlines|4722|small
+travel|Southwest Airlines|4722|small
+travel|JetBlue|4722|small
+travel|Alaska Airlines|4722|large
+travel|Spirit Airlines|4722|medium
+travel|Frontier Airlines|4722|large
+travel|Hawaiian Airlines|4722|large
+travel|Allegiant Air|4722|small
+travel|Marriott Hotels|4722|small
+travel|Hilton Hotels|4722|small
+travel|Hyatt Hotels|4722|large
+travel|IHG Hotels|4722|medium
+travel|Wyndham Hotels|4722|small
+travel|Best Western|4722|large
+travel|Choice Hotels|4722|medium
+travel|Radisson Hotels|4722|large
+travel|Motel 6|4722|medium
+travel|La Quinta|4722|medium
+travel|Airbnb|4722|small
+travel|VRBO|4722|small
+travel|Booking.com|4722|small
+travel|Expedia|4722|small
+travel|Hotels.com|4722|small
+travel|Priceline|4722|small
+travel|Kayak|4722|small
+travel|Hopper|4722|small
+travel|Trivago|4722|small
+travel|Travelocity|4722|large
+travel|Orbitz|4722|medium
+travel|CheapTickets|4722|small
+travel|Trip.com|4722|small
+travel|Agoda|4722|small
+travel|TripAdvisor|4722|small
+travel|Carnival Cruise Line|4722|medium
+travel|Royal Caribbean|4722|small
+travel|Norwegian Cruise Line|4722|large
+travel|Princess Cruises|4722|small
+travel|MSC Cruises|4722|large
+travel|Celebrity Cruises|4722|large
+travel|Holland America Line|4722|medium
+travel|Viking Cruises|4722|small
+travel|Disney Cruise Line|4722|small
+travel|Cunard|4722|medium
+travel|AAA Travel|4722|small
+travel|Costco Travel|4722|medium
+travel|Liberty Travel|4722|medium
+travel|Travel Leaders|4722|medium
+travel|Virtuoso Travel|4722|small
+travel|Samsonite|4722|small
+travel|Tumi|4722|small
+travel|Away Travel|4722|small
+travel|Rimowa|4722|medium
+travel|Travelpro|4722|small
+travel|Global Entry|4722|small
+travel|TSA PreCheck|4722|small
+travel|Clear|4722|medium
+travel|Priority Pass|4722|small
+travel|LoungeBuddy|4722|medium
+travel|Hertz Rental|4722|large
+travel|Avis Rental|4722|large
+travel|Budget Rental|4722|small
+travel|Sixt Rent a Car|4722|small
+travel|Fox Rent A Car|4722|small
