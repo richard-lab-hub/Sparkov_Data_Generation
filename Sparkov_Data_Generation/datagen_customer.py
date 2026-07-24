@@ -79,21 +79,63 @@ class Customer:
     'Randomly generates all the attributes for a customer'
 
     def __init__(self, config, seed_num=None):
-        self.fake = Faker()
+        self.fake = Faker('en_US')
+        self.fake_es = Faker('es_MX')
         if seed_num is not None:
             Faker.seed(seed_num)
             random.seed(seed_num)
         # turn all profiles into dicts to work with
         self.all_profiles = MainConfig(config).config
 
+    def generate_race(self):
+        # white (60%), hispanic (18%), black_asian (22%)
+        r = random.random()
+        if r < 0.60:
+            return 'white'
+        elif r < 0.78:
+            return 'hispanic'
+        else:
+            return 'black_asian'
+
+    def get_first_and_last_name(self, race):
+        if race == 'hispanic':
+            hispanic_first_male = ['Carlos', 'Jose', 'Juan', 'Luis', 'Miguel', 'Mateo', 'Alejandro', 'Santiago', 'Diego', 'Gabriel', 'Fernando', 'Francisco', 'Ricardo', 'Jorge', 'Javier', 'Rafael', 'Hector', 'Antonio', 'Manuel']
+            hispanic_first_female = ['Maria', 'Sofia', 'Isabella', 'Camila', 'Valentina', 'Valeria', 'Mariana', 'Gabriela', 'Lucia', 'Ximena', 'Carmen', 'Ana', 'Rosa', 'Teresa', 'Juana', 'Elena', 'Adriana']
+            hispanic_last = ['Rodriguez', 'Garcia', 'Martinez', 'Hernandez', 'Lopez', 'Gonzalez', 'Perez', 'Sanchez', 'Ramirez', 'Torres', 'Flores', 'Rivera', 'Gomez', 'Diaz', 'Reyes', 'Morales', 'Ortiz', 'Gutierrez']
+            first = random.choice(hispanic_first_male) if self.gender == 'M' else random.choice(hispanic_first_female)
+            last = random.choice(hispanic_last)
+        elif race == 'black_asian':
+            if random.random() < 0.5:
+                # Asian names
+                asian_first_male = ['David', 'Kevin', 'Alex', 'Jason', 'Michael', 'Brian', 'Andrew', 'Eric', 'Daniel', 'Justin']
+                asian_first_female = ['Grace', 'Emily', 'Michelle', 'Jessica', 'Amanda', 'Hannah', 'Sarah', 'Rachel', 'Jennifer', 'Ashley']
+                asian_last = ['Chen', 'Kim', 'Nguyen', 'Patel', 'Singh', 'Wang', 'Li', 'Yang', 'Zhang', 'Tran', 'Shah', 'Park', 'Lin', 'Wu']
+                first = random.choice(asian_first_male) if self.gender == 'M' else random.choice(asian_first_female)
+                last = random.choice(asian_last)
+            else:
+                # Black / African American names
+                black_first_male = ['Jamal', 'Malik', 'Darnell', 'Treyvon', 'DeAndre', 'Tyrone', 'Terrell', 'Marquan', 'Kevon', 'Rashad', 'Xavier', 'Marcus']
+                black_first_female = ['Aaliyah', 'Shanice', 'Ebony', 'Imani', 'Tamika', 'Keisha', 'Latoya', 'Nia', 'Tiana', 'Kiara', 'Jada', 'Jasmine']
+                black_last = ['Washington', 'Jefferson', 'Jackson', 'Williams', 'Johnson', 'Banks', 'Booker', 'Rivers', 'Dorsey', 'Mosley']
+                first = random.choice(black_first_male) if self.gender == 'M' else random.choice(black_first_female)
+                last = random.choice(black_last)
+        else:
+            # White / standard US
+            first = self.fake.first_name_male() if self.gender == 'M' else self.fake.first_name_female()
+            last = self.fake.last_name()
+
+        return first, last
+
     def generate_customer(self):
         self.gender, self.dob, self.age = self.generate_age_gender()
+        self.race = self.generate_race()
         self.addy = self.get_random_location()
+        first_name, last_name = self.get_first_and_last_name(self.race)
         customer_data = [
             self.fake.ssn(),
             self.generate_cc_num(),
-            self.get_first_name(),
-            self.fake.last_name(),
+            first_name,
+            last_name,
             self.gender,
             self.fake.street_address()
         ] + self.addy + [
