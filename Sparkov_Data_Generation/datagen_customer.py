@@ -267,13 +267,16 @@ class Customer:
                 return '100k+'
 
     def generate_education(self, job=None):
-        if job in ['Physician', 'Lawyer', 'Software Engineer', 'Investment Banker', 'Registered Nurse', 'Pharmacist', 'Financial Analyst', 'Accountant', 'Auditor', 'Professor', 'Teacher', 'Civil Servant']:
-            # Higher education required
+        if job in ['Physician', 'Pharmacist', 'Lawyer', 'Professor']:
+            # Strictly required advanced/doctoral degrees
+            return 'bachelor_plus'
+        elif job in ['Registered Nurse', 'Software Engineer', 'Investment Banker', 'Financial Analyst', 'Accountant', 'Auditor', 'Teacher', 'Civil Servant']:
+            # Bachelor's or Associate's/Nursing degree required: 0% hs_or_less
             r = random.random()
-            return 'bachelor_plus' if r < 0.90 else 'some_college'
+            return 'bachelor_plus' if r < 0.85 else 'some_college'
         elif job in ['Retail Manager', 'Electrician', 'Plumber', 'Chef', 'Mechanic']:
             r = random.random()
-            if r < 0.45:
+            if r < 0.50:
                 return 'some_college'
             elif r < 0.80:
                 return 'hs_or_less'
@@ -281,20 +284,21 @@ class Customer:
                 return 'bachelor_plus'
         elif job in ['Sales Associate', 'Driver', 'Unemployed']:
             r = random.random()
-            if r < 0.55:
+            if r < 0.60:
                 return 'hs_or_less'
-            elif r < 0.85:
+            elif r < 0.90:
                 return 'some_college'
             else:
                 return 'bachelor_plus'
         else:
+            # Retired / default
             r = random.random()
-            if r < 0.364:
-                return 'hs_or_less'
-            elif r < 0.613:
+            if r < 0.40:
+                return 'bachelor_plus'
+            elif r < 0.75:
                 return 'some_college'
             else:
-                return 'bachelor_plus'
+                return 'hs_or_less'
 
     def generate_marital_status(self):
         # married (50.0%), never_married (33.0%), formerly_married (17.0%)
