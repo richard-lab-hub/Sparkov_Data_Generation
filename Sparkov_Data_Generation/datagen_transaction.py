@@ -47,12 +47,16 @@ class Customer:
         self.raw = raw.strip().split('|')
         self.attrs = self.parse_customer(raw)
         self.fraud_dates = []
+        self.tx_history = []
 
     def print_trans(self, trans, is_fraud, fraud_dates):
         is_traveling = trans[1]
         travel_max = trans[2]
 
-        for t in trans[0]:
+        # Sort transactions chronologically by unix_time (t[3])
+        sorted_txs = sorted(trans[0], key=lambda x: int(x[3]))
+
+        for t in sorted_txs:
             ## Get transaction location details to generate appropriate merchant record
             merchants_in_category = merchants.get(t[4]) # merchant category
             if not merchants_in_category:
@@ -74,16 +78,13 @@ class Customer:
             merch_lat = fake.coordinate(center=float(cust_lat),radius=rad)
             merch_long = fake.coordinate(center=float(cust_long),radius=rad)
 
-            # Sample transaction_velocity: 0-1 (72%), 2-4 (24%), 5+ (4%)
-            rv = random.random()
-            if rv < 0.72:
-                velocity = random.choice([0, 1])
-            elif rv < 0.96:
-                velocity = random.choice([2, 3, 4])
-            else:
-                velocity = random.randint(5, 8)
+            # Calculate actual rolling 24-hour transaction velocity (86400 seconds)
+            epoch = int(t[3])
+            velocity = sum(1 for ts in self.tx_history if (epoch - 86400) <= ts < epoch)
 
             if (is_fraud == 0 and t[1] not in fraud_dates) or is_fraud == 1:
+                self.tx_history.append(epoch)
+                self.tx_history.sort()
                 features = self.raw + t + [chosen_merchant, str(merch_lat), str(merch_long), str(chosen_mcc), str(chosen_msize), str(velocity)]
                 print("|".join(features))
 

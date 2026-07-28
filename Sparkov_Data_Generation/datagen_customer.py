@@ -131,6 +131,7 @@ class Customer:
         self.race = self.generate_race()
         self.addy = self.get_random_location()
         first_name, last_name = self.get_first_and_last_name(self.race)
+        job = self.generate_job()
         customer_data = [
             self.fake.ssn(),
             self.generate_cc_num(),
@@ -139,12 +140,12 @@ class Customer:
             self.gender,
             self.fake.street_address()
         ] + self.addy + [
-            self.generate_job(),
+            job,
             self.dob,
             str(self.fake.random_number(digits=12)),
             self.find_profile(),
-            self.generate_income_band(),
-            self.generate_education(),
+            self.generate_income_band(job),
+            self.generate_education(job),
             self.generate_marital_status()
         ]
         return customer_data
@@ -205,25 +206,95 @@ class Customer:
         else:
             return 'Unemployed'
 
-    def generate_income_band(self):
-        # <50k (30.6%), 50-100k (28.2%), 100k+ (41.2%)
-        r = random.random()
-        if r < 0.306:
-            return '<50k'
-        elif r < 0.588:
-            return '50-100k'
+    def generate_income_band(self, job=None):
+        if job in ['Physician', 'Lawyer', 'Software Engineer', 'Investment Banker']:
+            # High income: 100k+ (85%), 50-100k (15%)
+            r = random.random()
+            return '100k+' if r < 0.85 else '50-100k'
+        elif job in ['Registered Nurse', 'Pharmacist', 'Financial Analyst', 'Accountant', 'Auditor', 'Professor']:
+            # Upper mid: 100k+ (60%), 50-100k (35%), <50k (5%)
+            r = random.random()
+            if r < 0.60:
+                return '100k+'
+            elif r < 0.95:
+                return '50-100k'
+            else:
+                return '<50k'
+        elif job in ['Teacher', 'Civil Servant']:
+            # Mid income: 50-100k (65%), <50k (20%), 100k+ (15%)
+            r = random.random()
+            if r < 0.65:
+                return '50-100k'
+            elif r < 0.85:
+                return '<50k'
+            else:
+                return '100k+'
+        elif job in ['Retail Manager', 'Electrician', 'Plumber']:
+            # Lower mid income: 50-100k (55%), <50k (30%), 100k+ (15%)
+            r = random.random()
+            if r < 0.55:
+                return '50-100k'
+            elif r < 0.85:
+                return '<50k'
+            else:
+                return '100k+'
+        elif job in ['Chef', 'Mechanic', 'Sales Associate', 'Driver']:
+            # Lower income: <50k (60%), 50-100k (30%), 100k+ (10%)
+            r = random.random()
+            if r < 0.60:
+                return '<50k'
+            elif r < 0.90:
+                return '50-100k'
+            else:
+                return '100k+'
+        elif job == 'Unemployed':
+            # Unemployed: <50k (85%), 50-100k (13%), 100k+ (2%)
+            r = random.random()
+            if r < 0.85:
+                return '<50k'
+            elif r < 0.98:
+                return '50-100k'
+            else:
+                return '100k+'
         else:
-            return '100k+'
+            # Retired or default: <50k (35%), 50-100k (35%), 100k+ (30%)
+            r = random.random()
+            if r < 0.35:
+                return '<50k'
+            elif r < 0.70:
+                return '50-100k'
+            else:
+                return '100k+'
 
-    def generate_education(self):
-        # hs_or_less (36.4%), some_college (24.9%), bachelor_plus (38.7%)
-        r = random.random()
-        if r < 0.364:
-            return 'hs_or_less'
-        elif r < 0.613:
-            return 'some_college'
+    def generate_education(self, job=None):
+        if job in ['Physician', 'Lawyer', 'Software Engineer', 'Investment Banker', 'Registered Nurse', 'Pharmacist', 'Financial Analyst', 'Accountant', 'Auditor', 'Professor', 'Teacher', 'Civil Servant']:
+            # Higher education required
+            r = random.random()
+            return 'bachelor_plus' if r < 0.90 else 'some_college'
+        elif job in ['Retail Manager', 'Electrician', 'Plumber', 'Chef', 'Mechanic']:
+            r = random.random()
+            if r < 0.45:
+                return 'some_college'
+            elif r < 0.80:
+                return 'hs_or_less'
+            else:
+                return 'bachelor_plus'
+        elif job in ['Sales Associate', 'Driver', 'Unemployed']:
+            r = random.random()
+            if r < 0.55:
+                return 'hs_or_less'
+            elif r < 0.85:
+                return 'some_college'
+            else:
+                return 'bachelor_plus'
         else:
-            return 'bachelor_plus'
+            r = random.random()
+            if r < 0.364:
+                return 'hs_or_less'
+            elif r < 0.613:
+                return 'some_college'
+            else:
+                return 'bachelor_plus'
 
     def generate_marital_status(self):
         # married (50.0%), never_married (33.0%), formerly_married (17.0%)
