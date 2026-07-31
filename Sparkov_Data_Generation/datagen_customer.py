@@ -14,6 +14,7 @@ headers = [
     'first',
     'last',
     'gender',
+    'race',
     'street',
     'city',
     'state', 
@@ -138,6 +139,7 @@ class Customer:
             first_name,
             last_name,
             self.gender,
+            self.race,
             self.fake.street_address()
         ] + self.addy + [
             job,

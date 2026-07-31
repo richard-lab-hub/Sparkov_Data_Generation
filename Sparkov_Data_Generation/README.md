@@ -74,3 +74,6 @@ The generation code is originally based on code by [Josh Plotkin](https://github
 - Simulated transaction numbers via faker MD5 hash (replacing sequential 0..n numbering)
 - Includes credit card number via faker
 - improved cross-platform file path compatibility
+
+## Data Generation command specifics 
+
