@@ -75,5 +75,8 @@ The generation code is originally based on code by [Josh Plotkin](https://github
 - Includes credit card number via faker
 - improved cross-platform file path compatibility
 
-## Data Generation command specifics 
+# Data Generation variables: 
+number of customers: 1000
+Start Date: 01-01-2026
+End Date; 12-31-2026
 
