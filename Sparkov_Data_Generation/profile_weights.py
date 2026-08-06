@@ -5,6 +5,23 @@ import numpy as np
 from faker import Faker
 from bisect import bisect_left
 
+CATEGORY_AMT_RANGES = {
+    'food_dining': (2.00, 250.00, 1000.00),
+    'grocery_pos': (5.00, 350.00, 1500.00),
+    'grocery_net': (15.00, 300.00, 1200.00),
+    'shopping_pos': (5.00, 800.00, 15000.00),
+    'shopping_net': (5.00, 1200.00, 20000.00),
+    'misc_pos': (2.00, 300.00, 5000.00),
+    'misc_net': (2.00, 400.00, 10000.00),
+    'pharmacy': (3.00, 200.00, 2000.00),
+    'home': (10.00, 2500.00, 35000.00),
+    'kids_pets': (5.00, 400.00, 5000.00),
+    'personal_care': (10.00, 300.00, 3000.00),
+    'gas_transport': (2.00, 120.00, 500.00),
+    'utilities': (25.00, 600.00, 2500.00),
+    'travel': (50.00, 4000.00, 50000.00)
+}
+
 
 class Profile:
     def __init__(self, profile):
@@ -157,9 +174,17 @@ class Profile:
     def pre_compute_amt_specs(self):
         amt_specs = {}
         for category in self.profile['categories_amt'].keys():
+            cat_info = self.profile['categories_amt'][category]
+            default_min, default_max, default_extreme = CATEGORY_AMT_RANGES.get(category, (1.00, 500.00, 5000.00))
+            min_amt = cat_info.get('min', default_min)
+            max_amt = cat_info.get('max', default_max)
+            extreme_max = cat_info.get('extreme_max', default_extreme)
             amt_specs[category] = {
-                'shape': self.profile['categories_amt'][category]['mean']**2 / self.profile['categories_amt'][category]['stdev']**2,
-                'scale': self.profile['categories_amt'][category]['stdev']**2 / self.profile['categories_amt'][category]['mean']
+                'shape': cat_info['mean']**2 / cat_info['stdev']**2,
+                'scale': cat_info['stdev']**2 / cat_info['mean'],
+                'min': min_amt,
+                'max': max_amt,
+                'extreme_max': extreme_max
             }
         return amt_specs
 
@@ -215,24 +240,33 @@ class Profile:
         # get counts for each category
         unique, counts = np.unique(rnds[:,4], return_counts=True)
         # sort by category
-        rnds = rnds[rnds[:,5].argsort()]
+        rnds = rnds[rnds[:,4].argsort()]
         offset = 0
         # for each category get the number of sample amounts
         for i, cat_prop in enumerate(unique):
-            cat_specs = self.amt_specs[self.proportions['categories_wt'][cat_prop]]
+            cat_name = self.proportions['categories_wt'][cat_prop]
+            cat_specs = self.amt_specs[cat_name]
             shape = cat_specs['shape']
             scale = cat_specs['scale']
+            min_amt = cat_specs['min']
+            max_amt = cat_specs['max']
+            extreme_max = cat_specs['extreme_max']
+
             rnd_amts = np.random.gamma(shape, scale, counts[i])
-            
-            # Adjust amounts to statistically follow spreadsheet target: <$10 (13%), $10-100 (62%), >$100 (25%)
-            for j in range(counts[i]):
-                ra = random.random()
-                if ra < 0.13:
-                    rnd_amts[j] = round(random.uniform(1.00, 9.99), 2)
-                elif ra < 0.75:
-                    rnd_amts[j] = round(random.uniform(10.00, 99.99), 2)
-                else:
-                    rnd_amts[j] = round(random.uniform(100.00, 500.00), 2)
+
+            # Bound standard transaction amounts within category-specific min and max ranges
+            rnd_amts = np.clip(rnd_amts, min_amt, max_amt)
+
+            # Rare extreme high-value outliers (~0.3% probability, e.g. luxury/travel $50k purchases)
+            if extreme_max > max_amt and counts[i] > 0:
+                outlier_mask = np.random.random(counts[i]) < 0.003
+                if np.any(outlier_mask):
+                    num_outliers = np.sum(outlier_mask)
+                    pareto_draws = (np.random.pareto(a=1.5, size=num_outliers) + 1.0)
+                    outlier_amts = max_amt * pareto_draws
+                    rnd_amts[outlier_mask] = np.clip(outlier_amts, max_amt, extreme_max)
+
+            rnd_amts = np.round(rnd_amts, 2)
 
             rnds[offset: offset + counts[i], 6] = rnd_amts
             offset += counts[i]

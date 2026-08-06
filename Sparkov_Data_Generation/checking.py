@@ -2,9 +2,11 @@ import csv
 from datetime import datetime
 from collections import Counter
 
+import os
+
 # Load Customer Data
-customers_file = "./Sparkov_Data_Generation/output_data/customers.csv"
-transactions_file = "./Sparkov_Data_Generation/output_data/transactions.csv"
+customers_file = "output_data/customers.csv" if os.path.exists("output_data/customers.csv") else "./Sparkov_Data_Generation/output_data/customers.csv"
+transactions_file = "output_data/transactions.csv" if os.path.exists("output_data/transactions.csv") else "./Sparkov_Data_Generation/output_data/transactions.csv"
 
 # Demographic dictionaries used in generator
 HISPANIC_SURNAMES = {'Rodriguez', 'Garcia', 'Martinez', 'Hernandez', 'Lopez', 'Gonzalez', 'Perez', 'Sanchez', 'Ramirez', 'Torres', 'Flores', 'Rivera', 'Gomez', 'Diaz', 'Reyes', 'Morales', 'Ortiz', 'Gutierrez'}
